@@ -1,0 +1,187 @@
+
+.header{
+   background-color: black;
+   height: 300px;
+   padding: 15px;
+    padding-left: 200px;
+}
+
+.home, .about, .achive{
+    color: whitesmoke;
+    text-decoration: none;
+    word-spacing: 2ch;
+    font-size: small;
+}
+
+.names{
+    padding: 50px;
+    padding-left: 300px;
+    color: white;
+}
+
+.centerPage{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+.row {
+    display: flex;
+    padding-right: 200px;
+}
+
+.left {
+    height: fit-content;
+    flex: 0%;
+    font-size: small;
+}
+.right{
+    height: 200px;
+    flex: 0%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 60%; 
+}
+
+.footer{
+    display: inline-block;
+    padding-left: 300px;
+}
+
+.wiki {
+    font-size: small;
+    border: none;
+}
+.video {
+    font-size: small;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+}
+.books {
+    font-size: small;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border: 5cap;
+    box-sizing: content-box;
+}
+
+.header2{
+    background-color: black;
+    height: 100px;
+    padding: 30px;
+    padding-left: 200px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+ }
+
+ h4 {
+     text-align: center;
+ }
+ 
+ .centerPage2{
+    padding: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+ }
+
+  .row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+  }
+  
+  .box {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    height: 110px;
+    width: 500px;
+    font-size: smaller;
+  }
+
+  .row3 {
+    display: flex;
+    text-align: center;
+  }
+
+  .centerPage3 {
+    padding: 15px;
+    padding-left: 200px;
+  }
+
+  .left1 {
+    height: fit-content;
+    flex: 0%;
+    font-size: small;    
+}
+.right1{
+    height: 200px;
+    flex: 0%;
+    font-size: small; 
+}
+
+.poem, .poetry {
+    text-align: center;
+}
+
+/* Header section start */
+.header-section {
+    position: relative;
+    text-align: center;
+    margin: 25px;
+  }
+  .header-section hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 0;
+    margin-right: 30px;
+}
+  .header-section .text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 44%;
+    transform: translate(-55%, -55%);
+    background-color: white; 
+    padding: 0 20px;
+}
+  .star-img{
+    position: absolute;
+    top: 45%;
+    left: -2px;
+    width: 25px;
+    height: auto;
+    transform: translateY(-50%);
+    padding:0px 4px ;
+  }
+  .end{
+    background-color: black;
+    height: 150px;
+    padding: 5px;
+    padding-left: 150px;
+    box-sizing: content-box;
+    
+ }
+
+ .row3{
+    display: flex;
+    padding-right: 200px;
+    color: white;
+    text-align: left;
+ }
+
+ .vl {
+    border-left: 1px solid grey;
+    height: 120px;
+  }
+
